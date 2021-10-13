@@ -7,7 +7,7 @@ const getData = (api) => {
       fillData(json);
     })
     .catch((error) => {
-      console.log("Error:", error);
+      console.log("Error in the Api:", error);
     });
 };
 

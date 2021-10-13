@@ -19,11 +19,11 @@ const getData = (api) => {
 // fetch es get or request tra informacion from api
 //api tiene la url que contiene el array
 //return para que retome la peticion en postman
-const fillData = (json) => {
+const fillData = (data) => {
   //crear codigo html
   let html = "";
   //foreach es mas rapido
-  json.forEach (p => {
+  data.results.forEach (p => {
     //pp people persona por persona ideal dso letras
     html += '<div class="col">'; //se recomienda comillas simples
     html += '<div class="card h-100">';
